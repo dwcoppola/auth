@@ -1,0 +1,42 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 1em;
+}
+input
+{
+    margin-bottom: 1em;
+    padding: .25em;
+}
+
+button
+{
+    max-width: 100px;
+    padding: .5em;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+button:hover
+{
+    background-color: cornflowerblue;
+}
+label 
+{
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+a:visited
+{
+    color: blue;
+}
